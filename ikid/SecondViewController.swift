@@ -23,15 +23,19 @@ class SecondViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func nextPressed(_ sender: Any) {
-        curr += 1
-        joke.text = lines[curr]
-        UIView.transition(with: joke, duration: 0.3, options: .transitionFlipFromLeft, animations: nil, completion: nil)
+        if curr < lines.count - 1 {
+            curr += 1
+            joke.text = lines[curr]
+            UIView.transition(with: joke, duration: 0.3, options: .transitionFlipFromLeft, animations: nil, completion: nil)
+        }
     }
     
     @IBAction func backPressed(_ sender: Any) {
-        curr -= 1
-        joke.text = lines[curr]
-        UIView.transition(with: joke, duration: 0.3, options: .transitionFlipFromLeft, animations: nil, completion: nil)
+        if curr > 0 {
+            curr -= 1
+            joke.text = lines[curr]
+            UIView.transition(with: joke, duration: 0.3, options: .transitionFlipFromLeft, animations: nil, completion: nil)
+        }
     }
     
 }
