@@ -11,11 +11,11 @@
 		DA79D9CA20263DE200509CD8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA79D9C920263DE200509CD8 /* FirstViewController.swift */; };
 		DA79D9CC20263DE200509CD8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA79D9CB20263DE200509CD8 /* SecondViewController.swift */; };
 		DA79D9CF20263DE200509CD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA79D9CD20263DE200509CD8 /* Main.storyboard */; };
-		DA79D9D120263DE200509CD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA79D9D020263DE200509CD8 /* Assets.xcassets */; };
 		DA79D9D420263DE200509CD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA79D9D220263DE200509CD8 /* LaunchScreen.storyboard */; };
 		DA79D9DF20263DE200509CD8 /* ikidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA79D9DE20263DE200509CD8 /* ikidTests.swift */; };
 		DA79D9EA20263DE200509CD8 /* ikidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA79D9E920263DE200509CD8 /* ikidUITests.swift */; };
 		DA79D9F820265B4000509CD8 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA79D9F720265B4000509CD8 /* ThirdViewController.swift */; };
+		DADB25422028D1BE0000335C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADB25412028D1BE0000335C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		DA79D9C920263DE200509CD8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		DA79D9CB20263DE200509CD8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		DA79D9CE20263DE200509CD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DA79D9D020263DE200509CD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA79D9D320263DE200509CD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA79D9D520263DE200509CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA79D9DA20263DE200509CD8 /* ikidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ikidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +50,7 @@
 		DA79D9E920263DE200509CD8 /* ikidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ikidUITests.swift; sourceTree = "<group>"; };
 		DA79D9EB20263DE200509CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA79D9F720265B4000509CD8 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		DADB25412028D1BE0000335C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +105,8 @@
 				DA79D9C920263DE200509CD8 /* FirstViewController.swift */,
 				DA79D9CB20263DE200509CD8 /* SecondViewController.swift */,
 				DA79D9F720265B4000509CD8 /* ThirdViewController.swift */,
+				DADB25412028D1BE0000335C /* Assets.xcassets */,
 				DA79D9CD20263DE200509CD8 /* Main.storyboard */,
-				DA79D9D020263DE200509CD8 /* Assets.xcassets */,
 				DA79D9D220263DE200509CD8 /* LaunchScreen.storyboard */,
 				DA79D9D520263DE200509CD8 /* Info.plist */,
 			);
@@ -239,7 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA79D9D420263DE200509CD8 /* LaunchScreen.storyboard in Resources */,
-				DA79D9D120263DE200509CD8 /* Assets.xcassets in Resources */,
+				DADB25422028D1BE0000335C /* Assets.xcassets in Resources */,
 				DA79D9CF20263DE200509CD8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
